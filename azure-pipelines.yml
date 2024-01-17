@@ -11,10 +11,13 @@ variables:
   containerRegistry: 'containerregistry017.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
+  k8sNamespace: 'default'
+  imagePullSecret: '2n5Sm4jnUTWy+yYg4jfuylQT3HLk1S60KlomIc6DpJ+ACRC/b1tb'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
-  
+
+stages:
 - stage: Build
   displayName: Build stage
   jobs:  
