@@ -1,4 +1,8 @@
 # Summary: Deploy Django Web App to Azure Kubernetes Service with Azure Pipelines
+[![Azure](https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoft-azure)](https://azure.microsoft.com/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-brightgreen?logo=kubernetes)](https://kubernetes.io/)
+[![CI/CD](https://img.shields.io/badge/CI%2FCD-Pipelines-orange?logo=azure-devops)](https://azure.microsoft.com/services/devops/)
+
 
 ## Overview
 This document provides a step-by-step guide to deploying a Django web application to Azure Kubernetes Service (AKS) using Azure Pipelines. The process involves containerizing the application with Docker, setting up Azure resources including a container registry and Kubernetes cluster, and configuring a pipeline in Azure DevOps for continuous integration and deployment.
@@ -11,9 +15,9 @@ This document provides a step-by-step guide to deploying a Django web applicatio
 ## Steps
 
 ### 1. Setup Azure Resources
-- Create a resource group using Azure CLI.
-- Create a container registry using Azure CLI.
-- Create a Kubernetes cluster using Azure CLI.
+- Create a resource group
+- Create a container registry
+- Create a Kubernetes cluster
 
 ### 2. Build Docker Image
 - Write a Dockerfile to package the Django web application.
