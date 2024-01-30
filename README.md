@@ -1,4 +1,4 @@
-# Summary: Deploy Django Web App to Azure Kubernetes Service with Azure Pipelines
+# Deploy Django Web App to Azure Kubernetes Service with Azure Pipelines: Simple Demo
 [![Azure](https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoft-azure)](https://azure.microsoft.com/)
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-brightgreen?logo=kubernetes)](https://kubernetes.io/)
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-Pipelines-orange?logo=azure-devops)](https://azure.microsoft.com/services/devops/)
